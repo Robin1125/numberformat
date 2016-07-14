@@ -23,7 +23,7 @@ int main()
 			t=i;
 		}
 	}
-	printf("%d",i-1);
+	printf("%ld",i-1);
 
 return 0;
 }

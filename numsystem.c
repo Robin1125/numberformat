@@ -2,12 +2,13 @@
 
 int main()
 {
-	long int i=3,t=3;
+	long int i=1,t=1;
 	int n,c=0;
 
 	scanf("%d",&n);
-
-	while(c!=n )
+     if(n>0)
+     {
+	while(c!=n)
 	{
 		if(t==3 || t==4)
 		{
@@ -23,6 +24,7 @@ int main()
 			t=i;
 		}
 	}
+     }
 	printf("%ld",i-1);
 
 return 0;
